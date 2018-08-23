@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "799402955651",
+    "firebase_url": "https://pragati-a61ea.firebaseio.com",
+    "project_id": "pragati-a61ea",
+    "storage_bucket": "pragati-a61ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799402955651:android:9de2cdc8d16ecc09",
+        "android_client_info": {
+          "package_name": "com.example.user.pragati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799402955651-p1a88ut3lh01cv55jkhg6havnsq0rvm9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.pragati",
+            "certificate_hash": "f3a986f04a91489db43aae177c90acbd48e40e31"
+          }
+        },
+        {
+          "client_id": "799402955651-bqfrsq2qnmdnp5icd7gkq1ktr7qm54fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_mZhkuy2CY7WB4h69qGbuSZ3Jr0LRGOE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799402955651-bqfrsq2qnmdnp5icd7gkq1ktr7qm54fc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
