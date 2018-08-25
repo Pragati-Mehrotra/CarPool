@@ -12,9 +12,13 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+<<<<<<< HEAD
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+=======
+import com.google.firebase.auth.FirebaseAuth;
+>>>>>>> 615c4caa07143698ae13fa4f72abc668b8656b0e
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -43,7 +47,11 @@ public class LoginActivity extends AppCompatActivity {
 
                         if (task.isSuccessful()) {
                             Toast.makeText(LoginActivity.this, "Login successful", Toast.LENGTH_LONG).show();
+<<<<<<< HEAD
                             Intent i = new Intent(LoginActivity.this, ExistingPool.class);
+=======
+                            Intent i = new Intent(LoginActivity.this, MainActivity.class);
+>>>>>>> 615c4caa07143698ae13fa4f72abc668b8656b0e
                             i.putExtra("Email", firebaseAuth.getCurrentUser().getEmail());
                             startActivity(i);
                         } else {
